@@ -1,0 +1,214 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "Title": "Carrie",
+            "Year": 1974,
+            "Pages": 199,
+            "Publisher": "Doubleday"
+        },
+        {
+            "id": 2,
+            "Title": "Salem's Lot",
+            "Year": 1975,
+            "Pages": 439,
+            "Publisher": "Doubleday"
+        },
+        {
+            "id": 3,
+            "Title": "The Shining",
+            "Year": 1977,
+            "Pages": 447,
+            "Publisher": "Doubleday"
+        },
+        {
+            "id": 4,
+            "Title": "Night Shift",
+            "Year": 1978,
+            "Pages": 352,
+            "Publisher": "Doubleday"
+        },
+        {
+            "id": 5,
+            "Title": "The Stand",
+            "Year": 1978,
+            "Pages": 823,
+            "Publisher": "Doubleday"
+        },
+        {
+            "id": 6,
+            "Title": "The Dead Zone",
+            "Year": 1979,
+            "Pages": 374,
+            "Publisher": "Doubleday"
+        },
+        {
+            "id": 7,
+            "Title": "Firestarter",
+            "Year": 1980,
+            "Pages": 426,
+            "Publisher": "Doubleday"
+        },
+        {
+            "id": 8,
+            "Title": "Cujo",
+            "Year": 1981,
+            "Pages": 319,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 9,
+            "Title": "The Running Man",
+            "Year": 1982,
+            "Pages": 192,
+            "Publisher": "Signet"
+        },
+        {
+            "id": 10,
+            "Title": "Christine",
+            "Year": 1983,
+            "Pages": 428,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 11,
+            "Title": "Pet Sematary",
+            "Year": 1983,
+            "Pages": 374,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 12,
+            "Title": "Thinner",
+            "Year": 1984,
+            "Pages": 208,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 13,
+            "Title": "It",
+            "Year": 1986,
+            "Pages": 1138,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 14,
+            "Title": "Misery",
+            "Year": 1987,
+            "Pages": 310,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 15,
+            "Title": "The Tommyknockers",
+            "Year": 1987,
+            "Pages": 592,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 16,
+            "Title": "The Dark Half",
+            "Year": 1989,
+            "Pages": 431,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 17,
+            "Title": "Needful Things",
+            "Year": 1991,
+            "Pages": 689,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 18,
+            "Title": "Gerald's Game",
+            "Year": 1992,
+            "Pages": 332,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 19,
+            "Title": "Dolores Claiborne",
+            "Year": 1992,
+            "Pages": 321,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 20,
+            "Title": "Insomnia",
+            "Year": 1994,
+            "Pages": 787,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 21,
+            "Title": "Rose Madder",
+            "Year": 1995,
+            "Pages": 497,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 22,
+            "Title": "The Green Mile",
+            "Year": 1996,
+            "Pages": 400,
+            "Publisher": "Signet"
+        },
+        {
+            "id": 23,
+            "Title": "Bag of Bones",
+            "Year": 1998,
+            "Pages": 529,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 24,
+            "Title": "Hearts in Atlantis",
+            "Year": 1999,
+            "Pages": 672,
+            "Publisher": "Viking Press"
+        },
+        {
+            "id": 25,
+            "Title": "Dreamcatcher",
+            "Year": 2001,
+            "Pages": 736,
+            "Publisher": "Scribner"
+        },
+        {
+            "id": 26,
+            "Title": "Lisey's Story",
+            "Year": 2006,
+            "Pages": 528,
+            "Publisher": "Scribner"
+        },
+        {
+            "id": 27,
+            "Title": "Under the Dome",
+            "Year": 2009,
+            "Pages": 1076,
+            "Publisher": "Scribner"
+        },
+        {
+            "id": 28,
+            "Title": "11/22/63",
+            "Year": 2011,
+            "Pages": 849,
+            "Publisher": "Scribner"
+        },
+        {
+            "id": 29,
+            "Title": "Doctor Sleep",
+            "Year": 2013,
+            "Pages": 531,
+            "Publisher": "Scribner"
+        },
+        {
+            "id": 30,
+            "Title": "The Outsider",
+            "Year": 2018,
+            "Pages": 576,
+            "Publisher": "Scribner"
+        }
+    ]
+}
