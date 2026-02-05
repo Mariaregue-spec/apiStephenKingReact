@@ -20,8 +20,8 @@ const Navbar = () => {
             <ul className="flex gap-8 text-gray-300 font-semibold text-lg">
                 {[
                     { to: "/", label: "Home" },
-                    { to: "/libros", label: "Libros" },
-                    { to: "/ubicacion", label: "Ubicación" },
+                    { to: "/books", label: "Libros" },
+                    { to: "/author", label: "Autor" },
                 ].map((link) => (
                     <li key={link.to} className="relative group">
                         <NavLink

@@ -13,7 +13,7 @@ const Books = () => {
             const data = await response.json();
             setBooks(data.data);
         } catch (error) {
-            console.error("Error cargando libros:", error);
+            console.error("Error cargando books:", error);
         } finally {
             setLoading(false);
         }
