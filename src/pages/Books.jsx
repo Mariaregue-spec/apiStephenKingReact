@@ -33,7 +33,7 @@ const Books = () => {
     };
     const totalPages = Math.ceil(books.length / booksPerPage);
     return (
-        <main className="min-h-screen px-6 py-10 text-white">
+        <main className="min-h-screen cover mx-auto py-10 text-center bg-[url('public/images/background/backgroundpage1.png')] bg-cover bg-center bg-fixed text-white">
             <h1 className="text-4xl font-extrabold text-center text-red-600 drop-shadow-lg">
                 Libros de Stephen King
             </h1>
