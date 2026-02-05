@@ -7,13 +7,13 @@ const Footer = () => {
             {/* Efecto de sangre en el borde superior */}
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-red-600 to-transparent animate-pulse"></div>
 
-            <div className="max-w-7xl mx-auto px-6 py-10">
+            <div className="max-w-7xl mx-auto px-6 py-5">
 
                 {/* Grid de contenido */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left">
 
                     {/* Columna 1: Sobre Stephen King */}
-                    <div className="space-y-3">
+                    <div className="space-y-2">
                         <h3 className="text-red-600 font-extrabold text-2xl tracking-wide drop-shadow-[0_0_10px_rgba(255,0,0,0.5)]">
                             Stephen King
                         </h3>
@@ -29,23 +29,23 @@ const Footer = () => {
                         </h3>
                         <ul className="space-y-2 text-gray-300">
                             <li>
-                                <a href="/books" className="hover:text-red-500 transition-colors duration-300 inline-block hover:translate-x-1">
-                                    📚 Libros
+                                <a href="/home" className="hover:text-red-600 transition-colors duration-300 inline-block hover:translate-x-1">
+                                🏚️ Inicio
                                 </a>
                             </li>
                             <li>
-                                <a href="/villains" className="hover:text-red-500 transition-colors duration-300 inline-block hover:translate-x-1">
-                                    👹 Villanos
+                                <a href="/books" className="hover:text-red-600 transition-colors duration-300 inline-block hover:translate-x-1">
+                                🎈 Libros
                                 </a>
                             </li>
                             <li>
-                                <a href="/shorts" className="hover:text-red-500 transition-colors duration-300 inline-block hover:translate-x-1">
-                                    📖 Relatos cortos
+                                <a href="/author" className="hover:text-red-600 transition-colors duration-300 inline-block hover:translate-x-1">
+                                ✍️ Autor
                                 </a>
                             </li>
                             <li>
-                                <a href="https://stephenking.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition-colors duration-300 inline-block hover:translate-x-1">
-                                    🌐 Sitio oficial
+                                <a href="https://stephenking.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors duration-300 inline-block hover:translate-x-1">
+                                🕸️ Página Oficial
                                 </a>
                             </li>
                         </ul>
