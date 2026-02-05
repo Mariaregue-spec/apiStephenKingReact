@@ -63,7 +63,7 @@ const Books = () => {
                                 onClick={() => handlePageChange(page)}
                                 className={`px-4 py-2 rounded-md font-semibold transition ${page === currentPage
                                         ? "bg-red-600 text-black shadow-[0_0_10px_rgba(255,0,0,0.5)]"
-                                        : "bg-gray-800 text-gray-300 hover:bg-red-500 hover:text-black"
+                                        : "bg-gray-800 text-gray-300 hover:bg-red-600 hover:text-black"
                                     }`}
                             >
                                 {page}
