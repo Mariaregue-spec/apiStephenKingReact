@@ -1,1 +1,12 @@
 @import 'tailwindcss';
+/* src/index.css */
+
+/* Fondo para todo el body */
+body {
+  @apply bg-gray-900 text-white; /* color de texto opcional */
+  background-image: url('src/assets/images/background/backgroundpage1.png'); /* ruta desde public/ */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* hace que quede fijo al hacer scroll */
+}

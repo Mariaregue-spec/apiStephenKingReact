@@ -1,18 +1,36 @@
-const BookCard = ({ book, onDelete }) => {
-    return (
-        <li className="border rounded-lg p-4 shadow-sm">
-            <h2 className="text-xl font-semibold">{book.Title}</h2>
-            <p className="text-gray-700">Stephen King</p>
-            <p className="text-sm text-gray-500">Año: {book.Year}</p>
+const BookCard = ({ book }) => {
+    const imageUrl = `/images/bookCovers/${book.Title
+        ?.toLowerCase()
+        .replaceAll(" ", "-")}.png`;
 
-            <button
-                onClick={() => onDelete(book.id)}
-                className="bg-red-600 text-white px-3 py-1 rounded hover:bg-red-700 mt-3"
-            >
-                Borrar
-            </button>
+    return (
+        <li className="bg-black/70 border border-red-900 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(255,0,0,0.25)] transform hover:scale-105 hover:shadow-[0_0_30px_rgba(255,0,0,0.6)] transition duration-300">
+
+            {/* Imagen */}
+            <div className="h-64 bg-black">
+                <img
+                    src={imageUrl}
+                    alt={book.Title}
+                    className="w-full h-full object-cover opacity-90 hover:opacity-100 transition"
+                    onError={(e) => {
+                        e.target.src = "/images/bookCovers/default.png";
+                    }}
+                />
+            </div>
+
+            {/* Info */}
+            <div className="p-4 text-center">
+                <h2 className="text-xl font-bold text-red-500 drop-shadow">
+                    {book.Title}
+                </h2>
+
+                <p className="text-sm text-gray-300 mt-2">Año: {book.Year}</p>
+                <p className="text-sm text-gray-300">Páginas: {book.Pages}</p>
+                <p className="text-sm text-gray-400 italic">{book.Publisher}</p>
+            </div>
         </li>
     );
 };
 
 export default BookCard;
+

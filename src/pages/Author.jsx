@@ -1,9 +1,9 @@
-const Ubicacion = () => {
+const Author = () => {
     return (
         <h1 className="text-3xl font-bold text-center mt-10">
-            Ubicación 📍
+            Autor
         </h1>
     )
 }
 
-export default Ubicacion
+export default Author
