@@ -26,7 +26,7 @@ const Navbar = () => {
             {/* Links */}
             <ul className="flex gap-12 text-gray-300 font-bold text-xl md:text-2xl">
                 {[
-                    { to: "/", label: "Home" },
+                    { to: "/", label: "Inicio" },
                     { to: "/books", label: "Libros" },
                     { to: "/author", label: "Autor" },
                 ].map((link) => (
