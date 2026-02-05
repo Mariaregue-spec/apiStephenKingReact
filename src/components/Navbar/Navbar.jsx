@@ -1,23 +1,30 @@
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+    const redColor = "red-600"; 
+
     return (
-        <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-md border-b border-red-900 shadow-[0_0_25px_rgba(255,0,0,0.3)] px-6 py-4 flex justify-between items-center">
+        <nav className="sticky top-0 z-50 bg-black/95 backdrop-blur-md border-b border-red-900 shadow-[0_0_30px_rgba(255,0,0,0.4)] px-12 py-6 flex justify-between items-center">
 
-            {/* Título con efecto perturbador */}
-            <h1 className="text-2xl md:text-3xl font-extrabold tracking-widest text-red-600 relative animate-pulse">
-                <span className="drop-shadow-[0_0_8px_rgba(255,0,0,0.8)]">
-                    STEPHEN KING
-                </span>
-
-                {/* sombra fantasma detrás */}
-                <span className="absolute left-0 top-0 text-red-900 blur-sm opacity-40 -z-10">
-                    STEPHEN KING
-                </span>
-            </h1>
+            {/* Logo + Título */}
+            <div className="flex items-center gap-6">
+                <img
+                    src="src/assets/images/logo/logoStephenKing.png"
+                    alt="Logo Stephen King"
+                    className="w-16 h-16 md:w-20 md:h-20 object-contain"
+                />
+                <h1 className={`text-3xl md:text-5xl font-extrabold tracking-widest text-${redColor} relative animate-pulse`}>
+                    <span className={`drop-shadow-[0_0_10px_rgba(255,0,0,0.9)]`}>
+                        STEPHEN KING
+                    </span>
+                    <span className="absolute left-0 top-0 blur-sm opacity-40 -z-10" style={{ color: "#B91C1C" }}>
+                        STEPHEN KING
+                    </span>
+                </h1>
+            </div>
 
             {/* Links */}
-            <ul className="flex gap-8 text-gray-300 font-semibold text-lg">
+            <ul className="flex gap-12 text-gray-300 font-bold text-xl md:text-2xl">
                 {[
                     { to: "/", label: "Home" },
                     { to: "/books", label: "Libros" },
@@ -27,20 +34,18 @@ const Navbar = () => {
                         <NavLink
                             to={link.to}
                             className={({ isActive }) =>
-                                `transition-all duration-300 ${isActive
-                                    ? "text-red-500"
-                                    : "hover:text-red-500"
-                                }`
+                                `transition-all duration-300 ${isActive ? "text-red-600" : "hover:text-red-600"}`
                             }
                         >
                             {link.label}
                         </NavLink>
 
-                        {/* sangre / línea roja animada */}
-                        <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-red-600 transition-all duration-500 group-hover:w-full shadow-[0_0_10px_red]" />
+                        {/* línea roja animada */}
+                        <span className="absolute left-0 -bottom-1 h-[3px] w-0 bg-red-600 transition-all duration-500 group-hover:w-full shadow-[0_0_12px_red]" />
                     </li>
                 ))}
             </ul>
+
         </nav>
     );
 };
