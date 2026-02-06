@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import Author from "./pages/Author";
 import Books from "./pages/Books";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
           <Route path="/author" element={<Author />} />
         </Routes>
       </div>
+      <Footer />
     </div>
+
   );
 }
 
