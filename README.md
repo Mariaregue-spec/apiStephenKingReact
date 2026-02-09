@@ -2,10 +2,6 @@
 
 Una aplicación web desarrollada con **React + Vite** que consume una API sobre el universo literario de **Stephen King**, mostrando información detallada sobre sus obras, autores y personajes en una interfaz dinámica, moderna y lista para producción.
 
-## 🌐 Demo en producción
-
-👉 [https://api-stephen-king-react.vercel.app](https://api-stephen-king-react.vercel.app)
-
 ---
 
 ## 🎯 Descripción del proyecto
