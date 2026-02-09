@@ -1,107 +1,244 @@
-### 📚 apiStephenKingReact
+# 📚 Stephen King API - React App
 
-Aplicación web desarrollada con **React + Vite** que consume una API del universo de **Stephen King** y muestra información de obras y personajes en una interfaz dinámica, moderna y preparada para producción.
+Una aplicación web desarrollada con **React + Vite** que consume una API sobre el universo literario de **Stephen King**, mostrando información detallada sobre sus obras, autores y personajes en una interfaz dinámica, moderna y lista para producción.
 
-Este proyecto forma parte de mi **portfolio como desarrolladora Frontend Junior**, demostrando:
+## 🌐 Demo en producción
 
-- Consumo real de APIs
-- Arquitectura frontend + backend
-- Componentización en React
-- Preparación para despliegue en producción
+👉 [https://api-stephen-king-react.vercel.app](https://api-stephen-king-react.vercel.app)
 
 ---
 
-## 🚀 Demo en producción
+## 🎯 Descripción del proyecto
 
-👉 https://api-stephen-king-react.vercel.app
-_(actualizar con tu URL real)_
+Este proyecto demuestra habilidades de **desarrollo frontend moderno** incluyendo:
 
----
-
-## 🎬 Vista rápida de la aplicación
-
-![Demo app](public/images/demo.gif)
+- ✅ Consumo de APIs con Axios
+- ✅ Arquitectura completa (Frontend + Backend)
+- ✅ Componentización escalable en React
+- ✅ Separación de responsabilidades
+- ✅ Enrutamiento con React Router
+- ✅ Animaciones fluidas con Framer Motion
+- ✅ Estilos modernos con Tailwind CSS
+- ✅ Servidor de desarrollo con JSON Server
 
 ---
 
 ## 🛠️ Stack tecnológico
 
-- **React**
-- **Vite**
-- **JavaScript ES6+**
-- **HTML5 & CSS3**
-- **ESLint**
+| Tecnología | Versión | Uso |
+|-----------|---------|-----|
+| **React** | 19.2.0 | Framework principal |
+| **Vite** | 7.2.4 | Build tool y servidor de desarrollo |
+| **React Router** | 7.12.0 | Enrutamiento de la aplicación |
+| **Axios** | 1.13.2 | Cliente HTTP para consumir API |
+| **Tailwind CSS** | 4.1.18 | Framework CSS utilitario |
+| **Framer Motion** | 12.34.0 | Animaciones e interacciones |
+| **JSON Server** | 1.0.0-beta.3 | API mock / backend local |
+| **ESLint** | 9.39.1 | Linter de código |
 
 ---
 
-## ✨ Funcionalidades
+## 📂 Estructura del proyecto
 
-- Consumo de **API externa o propia**
-- Renderizado dinámico de datos
-- Componentes reutilizables
-- Separación **frontend / backend**
-- Base preparada para **routing, búsqueda y filtros**
+```
+apiStephenKingReact/
+├── public/                 # Archivos estáticos
+│   └── images/            # Imágenes del sitio
+│       ├── author/
+│       ├── background/
+│       └── bookCoversCards/
+├── server/                 # Backend (JSON Server)
+│   ├── db.json            # Base de datos JSON
+│   └── stephenKingApi.js
+├── src/
+│   ├── components/        # Componentes reutilizables
+│   │   ├── bookCard/
+│   │   ├── footer/
+│   │   └── navbar/
+│   ├── pages/            # Páginas de la aplicación
+│   │   ├── home.jsx      # Página principal
+│   │   ├── books.jsx     # Catálogo de libros
+│   │   └── author.jsx    # Información del autor
+│   ├── services/         # Llamadas a API
+│   │   └── bookServices.jsx
+│   ├── utils/            # Utilidades
+│   │   └── bookImages.js
+│   ├── assets/           # Recursos de la app
+│   ├── app.jsx           # Componente principal
+│   ├── main.jsx          # Punto de entrada
+│   ├── app.css
+│   └── index.css
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+```
 
 ---
 
-## 📂 Arquitectura
+## ✨ Características principales
 
-src/
+### 🏠 Página Principal
+- Vista previa de obras destacadas
+- Slider con películas/series adaptadas
+- Información sobre Stephen King
 
-├─ components/
+### 📖 Catálogo de libros
+- Listado completo de obras
+- Tarjetas dinámicas con portadas
+- Información detallada de cada libro
 
-├─ pages/
+### 👤 Página del autor
+- Biografía completa
+- Galería de fotos
+- Obras cronológicas
 
-├─ services/      # llamadas a API
-
-└─ App.jsx
+### 🎨 Interfaz moderna
+- Diseño responsive
+- Animaciones con Framer Motion
+- Paleta de colores consistente con Tailwind
 
 ---
 
-server/            # backend propio
+## 🚀 Instalación y uso
 
-Estructura pensada para **escalabilidad y buenas prácticas en proyectos reales**.
+### Requisitos previos
+- Node.js (v16 o superior)
+- npm o yarn
 
----
+### Pasos de instalación
 
-## ⚙️ Instalación
-
+```bash
+# Clonar el repositorio
 git clone https://github.com/Mariaregue-spec/apiStephenKingReact.git
 
+# Entrar en el directorio
 cd apiStephenKingReact
 
+# Instalar dependencias
 npm install
+```
 
+### Ejecutar en desarrollo
+
+**Terminal 1 - Frontend (Vite)**
+```bash
 npm run dev
+```
+Se abrirá en `http://localhost:5173`
+
+**Terminal 2 - Backend (JSON Server)**
+```bash
+npm run api
+```
+API disponible en `http://localhost:3000`
+
+### Build para producción
+
+```bash
+npm run build
+```
+
+### Preview de producción
+
+```bash
+npm run preview
+```
+
+### Linting
+
+```bash
+npm run lint
+```
+
 ---
-🎯 Qué demuestra este proyecto
-Uso profesional de React en entorno real
 
-Comprensión del flujo cliente → API → render
+## 🔌 API y integración
 
-Organización mantenible del código
+The application consumes data from a local JSON Server backend:
 
-Preparación para deploy en producción
+**Base URL**: `http://localhost:3000`
+
+**Endpoints principales**:
+- `GET /books` - Lista de libros
+- `GET /books/:id` - Detalle de un libro
+- `GET /author` - Información del autor
+
+Ver [server/db.json](server/db.json) para esquema de datos.
+
 ---
-🔮 Próximas mejoras
-React Router
 
-Sistema de búsqueda
+## 📚 Componentes principales
 
-Tests automatizados
+### BookCard
+Tarjeta reutilizable que muestra información de un libro con:
+- Portada de imagen
+- Título y autor
+- Descripción resumida
+- Enlaces de interacción
 
-Responsive avanzado
+### Navbar
+Barra de navegación con:
+- Logo de la aplicación
+- Enlaces al menú principal
+- Responsive design
 
-CI/CD
+### Footer
+Pie de página con:
+- Enlaces útiles
+- Información de copyright
+- Redes sociales
+
 ---
-👩‍💻 Autora
 
+## 🎯 Habilidades demostradas
 
-María Regueiro
+✅ **React Avanzado**: Hooks (useState, useEffect, useContext), Componentes funcionales, Render condicional
 
+✅ **Flujo de datos**: API → Services → Components → Render
+
+✅ **Buenas prácticas**: Separación de responsabilidades, DRY, código limpio
+
+✅ **Herramientas modernas**: Vite, ESLint, Tailwind CSS
+
+✅ **Responsive Design**: Mobile-first approach con Tailwind
+
+✅ **Animaciones**: Framer Motion para UX mejorada
+
+---
+
+## 🔮 Mejoras futuras
+
+- [ ] Tests unitarios e integración (Jest, Vitest)
+- [ ] Sistema de búsqueda y filtros avanzados
+- [ ] Página de detalles de libros mejorada
+- [ ] Carrito de compra / Wishlist
+- [ ] Comentarios y ratings
+- [ ] Autenticación de usuarios
+- [ ] Dark mode
+- [ ] Optimización de imágenes (Next Image)
+- [ ] PWA (Progressive Web App)
+- [ ] Análitica con Google Analytics
+
+---
+
+## 👩‍💻 Autora
+
+**María Regueiro**  
 Frontend Developer Junior
 
-GitHub: https://github.com/Mariaregue-spec
+- 🔗 [GitHub](https://github.com/Mariaregue-spec)
+- 💼 [LinkedIn](https://www.linkedin.com/in/maríaregueiro)
+- 📧 maria.regueiro@email.com
 
-LinkedIn: www.linkedin.com/in/maríaregueiro
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo licencia MIT. Ver `LICENSE` para más detalles.
+
+---
+
+**Última actualización**: Febrero 2026
 
