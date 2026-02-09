@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import BookCard from "../components/BookCard/BookCard";
+import BookCard from "../components/bookCard/bookCard";
 import { getBookImage } from "../utils/bookImages";
 
 const Books = () => {

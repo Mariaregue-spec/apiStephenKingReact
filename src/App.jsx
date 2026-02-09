@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./pages/Home";
-import Author from "./pages/Author";
-import Books from "./pages/Books";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/navbar/navbar";
+import Home from "./pages/home";
+import Author from "./pages/author";
+import Books from "./pages/books";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (

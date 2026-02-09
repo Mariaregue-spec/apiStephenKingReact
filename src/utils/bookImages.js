@@ -1,6 +1,6 @@
 export const bookImages = {
     "Carrie": "public/images/bookCoversCards/carrie.png",
-    "11/22/63": "public/images/bookCoversCards/112263.png",
+    "11/22/63": "public/images/bookCoversCards/11-22-63.png",
     "Bag of Bones": "public/images/bookCoversCards/bagOfBones.png",
     "Black House": "public/images/bookCoversCards/blackHouse.png",
     "Christine": "public/images/bookCoversCards/christine.png",
@@ -26,7 +26,7 @@ export const bookImages = {
     "Rose Madder": "public/images/bookCoversCards/roseMadder.png",
     "Salem's Lot": "public/images/bookCoversCards/salemsLot.png",
     "The Dark Half": "public/images/bookCoversCards/theDarkHalf.png",
-    "The Dark Tower: The Gunslinger": "public/images/bookCoversCards/theDarkTowerTheGunslinger.png",
+    "The Dark Tower: The Gunslinger": "public/images/bookCoversCards/theDarkTower.png",
     "The Dark Tower V: Wolves of the Calla": "public/images/bookCoversCards/theDarkTowerWolvesOfTheCalla.png",
     "The Dark Tower IV: Wizard and Glass": "public/images/bookCoversCards/theDarkTowerWizardAndGlass.png",
     "The Dead Zone": "public/images/bookCoversCards/theDeadZone.png",
