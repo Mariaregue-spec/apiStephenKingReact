@@ -1,17 +1,107 @@
-# React + Vite
+### 📚 apiStephenKingReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con **React + Vite** que consume una API del universo de **Stephen King** y muestra información de obras y personajes en una interfaz dinámica, moderna y preparada para producción.
 
-Currently, two official plugins are available:
+Este proyecto forma parte de mi **portfolio como desarrolladora Frontend Junior**, demostrando:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Consumo real de APIs
+- Arquitectura frontend + backend
+- Componentización en React
+- Preparación para despliegue en producción
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🚀 Demo en producción
 
-## Expanding the ESLint configuration
+👉 https://api-stephen-king-react.vercel.app
+_(actualizar con tu URL real)_
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# apiStephenKingReact
+---
+
+## 🎬 Vista rápida de la aplicación
+
+![Demo app](public/images/demo.gif)
+
+---
+
+## 🛠️ Stack tecnológico
+
+- **React**
+- **Vite**
+- **JavaScript ES6+**
+- **HTML5 & CSS3**
+- **ESLint**
+
+---
+
+## ✨ Funcionalidades
+
+- Consumo de **API externa o propia**
+- Renderizado dinámico de datos
+- Componentes reutilizables
+- Separación **frontend / backend**
+- Base preparada para **routing, búsqueda y filtros**
+
+---
+
+## 📂 Arquitectura
+
+src/
+
+├─ components/
+
+├─ pages/
+
+├─ services/      # llamadas a API
+
+└─ App.jsx
+
+---
+
+server/            # backend propio
+
+Estructura pensada para **escalabilidad y buenas prácticas en proyectos reales**.
+
+---
+
+## ⚙️ Instalación
+
+git clone https://github.com/Mariaregue-spec/apiStephenKingReact.git
+
+cd apiStephenKingReact
+
+npm install
+
+npm run dev
+---
+🎯 Qué demuestra este proyecto
+Uso profesional de React en entorno real
+
+Comprensión del flujo cliente → API → render
+
+Organización mantenible del código
+
+Preparación para deploy en producción
+---
+🔮 Próximas mejoras
+React Router
+
+Sistema de búsqueda
+
+Tests automatizados
+
+Responsive avanzado
+
+CI/CD
+---
+👩‍💻 Autora
+
+
+María Regueiro
+
+Frontend Developer Junior
+
+GitHub: https://github.com/Mariaregue-spec
+
+LinkedIn: www.linkedin.com/in/maríaregueiro
+

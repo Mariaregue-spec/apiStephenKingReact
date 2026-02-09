@@ -1,24 +1,31 @@
-import Navbar from "./components/Navbar/Navbar"
-import { Routes, Route } from "react-router-dom"
-
-import Home from "./pages/Home"
-import Libros from "./pages/Libros"
-import Ubicacion from "./pages/Ubicacion"
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/navbar/navbar";
+import Home from "./pages/home";
+import Author from "./pages/author";
+import Books from "./pages/books";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <>
-      <Navbar />
-
-      <main>
+    <div
+      className="min-h-screen bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/src/assets/images/background/backgroundpage1.png')" }}
+    >
+      {/* Overlay oscuro para resaltar el contenido */}
+      <div className="min-h-screen bg-black bg-opacity-70">
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/libros" element={<Libros />} />
-          <Route path="/ubicacion" element={<Ubicacion />} />
+          <Route path="/books" element={<Books />} />
+          <Route path="/author" element={<Author />} />
         </Routes>
-      </main>
-    </>
-  )
+      </div>
+      <Footer />
+    </div>
+
+  );
 }
 
-export default App
+export default App;
+
