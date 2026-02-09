@@ -99,7 +99,7 @@ const Footer = () => {
                         <p className="text-gray-500 text-xs italic mt-3">
                             "Los monstruos son reales, los fantasmas son reales también. Viven dentro de nosotros, y a veces, ellos ganan."
                             <br />
-                            <span className="text-red-700">— Stephen King</span>
+                            <span className="text-red-600">— Stephen King</span>
                         </p>
                     </div>
                 </div>
