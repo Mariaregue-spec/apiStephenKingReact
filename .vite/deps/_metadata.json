@@ -1,0 +1,46 @@
+{
+  "hash": "545f7ed6",
+  "configHash": "8fc2f980",
+  "lockfileHash": "ec20336f",
+  "browserHash": "2e6301dd",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "56c2d6b5",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "ef4e35c6",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "aba332b8",
+      "needsInterop": false
+    },
+    "react-slick": {
+      "src": "../../node_modules/react-slick/lib/index.js",
+      "file": "react-slick.js",
+      "fileHash": "a50755de",
+      "needsInterop": true
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "cb5f0860",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-BRDTLNCR": {
+      "file": "chunk-BRDTLNCR.js"
+    },
+    "chunk-OOF7LIVO": {
+      "file": "chunk-OOF7LIVO.js"
+    }
+  }
+}
