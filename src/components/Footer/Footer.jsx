@@ -29,17 +29,17 @@ const Footer = () => {
                         </h3>
                         <ul className="space-y-1 text-gray-300 text-sm">
                             <li>
-                                <a href="/" className="hover:text-red-500 transition-colors duration-300 inline-block hover:translate-x-1">
+                                <a href="/" className="hover:text-red-600 transition-colors duration-300 inline-block hover:translate-x-1">
                                     🏚️ Inicio
                                 </a>
                             </li>
                             <li>
-                                <a href="/books" className="hover:text-red-500 transition-colors duration-300 inline-block hover:translate-x-1">
+                                <a href="/books" className="hover:text-red-600 transition-colors duration-300 inline-block hover:translate-x-1">
                                     🎈 Libros
                                 </a>
                             </li>
                             <li>
-                                <a href="/author" className="hover:text-red-500 transition-colors duration-300 inline-block hover:translate-x-1">
+                                <a href="/author" className="hover:text-red-600 transition-colors duration-300 inline-block hover:translate-x-1">
                                     ✍️ Autor
                                 </a>
                             </li>
