@@ -229,8 +229,7 @@ Pie de página con:
 Frontend Developer Junior
 
 - 🔗 [GitHub](https://github.com/Mariaregue-spec)
-- 💼 [LinkedIn](https://www.linkedin.com/in/mar%C3%ADaregueiro/)
-
+- 💼 [LinkedIn]([www.linkedin.com/in/maríaregueiro](https://www.linkedin.com/in/mar%C3%ADaregueiro/))
 
 
 ---
