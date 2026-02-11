@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
+import Logo from "../../assets/images/logo/logoStephenKing.png";
 const Navbar = () => {
     const redColor = "red-600";
     const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
             {/* Logo + Título */}
             <div className="flex items-center gap-4 md:gap-6">
                 <img
-                    src="src/assets/images/logo/logoStephenKing.png"
+                    src={Logo}
                     alt="Logo Stephen King"
                     className="w-12 h-12 md:w-20 md:h-20 object-contain"
                 />
