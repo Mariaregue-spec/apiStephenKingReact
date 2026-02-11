@@ -9,12 +9,12 @@ const timeline = [
 ];
 
 const movies = [
-    { title: "It", image: "public/images/author/it.png" },
-    { title: "The Shining", image: "public/images/author/theShining.png" },
-    { title: "Doctor Sleep", image: "public/images/author/doctorSleep.png" },
+    { title: "It", image: "/images/author/it.png" },
+    { title: "The Shining", image: "/images/author/theShining.png" },
+    { title: "Doctor Sleep", image: "/images/author/doctorSleep.png" },
 ];
 
-const kingPhoto = "public/images/author/stephenKingPhoto.jpg";
+const kingPhoto = "/images/author/stephenKingPhoto.jpg";
 
 const AuthorPage = () => {
     return (
