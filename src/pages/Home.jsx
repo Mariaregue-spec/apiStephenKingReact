@@ -43,7 +43,7 @@ const Home = () => {
     };
 
     return (
-        <main className="min-h-screen cover mx-auto py-10 text-center bg-[url('public/images/background/backgroundpage1.png')] bg-cover bg-center bg-fixed text-white">
+        <main className="min-h-screen cover mx-auto py-10 text-center bg-[url('/images/background/backgroundpage1.png')] bg-cover bg-center bg-fixed text-white">
             <h2 className="text-4xl md:text-5xl font-bold text-red-600 mb-4 drop-shadow-lg">
                 Bienvenido al universo de Stephen King
             </h2>
